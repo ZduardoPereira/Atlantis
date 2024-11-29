@@ -1,4 +1,19 @@
-<h1 align="center">🗒️ Atividade prática 3<br></h1>
+# Atividade 4
 
-<h3 align="center">Projeto Atlantis</h3>
-<h5 align="center">👨‍🏫 Professor Dr. Eng. Gerson Penha
+## Desenvolvimento Web III
+
+## Como Rodar o Projeto
+
+Siga os passos descritos abaixo para configurar e executar o projeto em seu ambiente local.e.
+
+### 1. Instalação
+
+Certifique-se de que o Node.js está instalado no seu computador. Após isso, abra o terminal e navegue até o diretório do projeto.
+### 2. Compilar o TypeScript
+
+Dentro do diretório atv4/, execute os comandos abaixo para instalar as dependências e compilar o código escrito em TypeScript:
+
+```bash
+npm install
+npm install typescript
+npm start

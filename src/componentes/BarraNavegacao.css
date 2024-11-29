@@ -1,0 +1,43 @@
+/* Estilos adicionais para a barra de navegação */
+.nav-bar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-wrapper {
+  padding: 0 15px;
+}
+
+.brand-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #f1c40f; /* Destaque ao passar o mouse */
+}
+
+.sidenav {
+  background-color: #1565c0; /* Azul Materialize */
+}
+
+.sidenav li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.sidenav li a:hover {
+  color: #f1c40f;
+}
+
+.material-icons {
+  font-size: 2rem;
+}

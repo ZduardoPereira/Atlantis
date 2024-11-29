@@ -1,0 +1,62 @@
+/* Estilos para a página Home */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* Cor suave para o fundo */
+  }
+  
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .welcome-card {
+    background: #ffffff; /* Fundo branco para destaque */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .welcome-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1565c0; /* Azul Materialize */
+    margin-bottom: 20px;
+  }
+  
+  .welcome-message {
+    font-size: 18px;
+    color: #555555; /* Texto em cinza */
+    margin-bottom: 15px;
+  }
+  
+  .instruction {
+    font-size: 16px;
+    color: #888888;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .welcome-card {
+      padding: 20px;
+    }
+  
+    .welcome-title {
+      font-size: 20px;
+    }
+  
+    .welcome-message,
+    .instruction {
+      font-size: 14px;
+    }
+  }
+  
