@@ -1,7 +1,6 @@
 import Processo from "../abstracoes/processo";
 import MenuTipoCadastroCliente from "../menus/menuTipoCadastroCliente";
-import CadastroClienteTitular from "./cadastros/clientes/cadastroClienteTitular";
-import CadastroDepente from "./cadastros/clientes/cadastroDependente";
+import CadastroClienteTitular from "./cadastroClienteTitular";
 
 export default class TipoCadastroCliente extends Processo {
     constructor() {
@@ -15,11 +14,6 @@ export default class TipoCadastroCliente extends Processo {
         switch (this.opcao) {
             case 1:
                 this.processo = new CadastroClienteTitular()
-                this.processo.processar()
-                break
-
-            case 2:
-                this.processo = new CadastroDepente()
                 this.processo.processar()
                 break
             default:
